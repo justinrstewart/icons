@@ -1298,22 +1298,3 @@ a:focus, [tabindex="0"]:focus {
   a[href]::after {
     content: " (" attr(href) ")";
   }
-
-  abbr[title]::after {
-    content: " (" attr(title) ")";
-  }
-
-  a[href^="#"]::after,
-  a[href^="javascript:"]::after,
-  a.no-print-href::after,
-  a.href-no-print::after {
-    content: "";
-  }
-
-  thead {
-    display: table-header-group;
-  }
-
-  /* End HTML5 Boilerplate code */
-
-}
